@@ -1,12 +1,13 @@
 .topbar {
-  background-color: maroon;
-  border-radius: 20%;
+  background-color: #4CA6A6;
   color: white;
-
+  margin: 20px;
+  padding: 30px
 }
 
 body {
-  background-image: 
+  background-image: url(../images/Background.jpg);
+
 }
 .column {
   width: 350px;
@@ -18,4 +19,7 @@ img {
   border-radius:50%;
   max-width: 500px;
 
+}
+p.columns {
+  float: right;
 }
