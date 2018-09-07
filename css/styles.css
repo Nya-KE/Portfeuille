@@ -20,6 +20,8 @@ img {
   max-width: 500px;
 
 }
-p.columns {
-  float: right;
+p {
+  background-color: #005959;
+  color: white;
+  padding: 10px;
 }
