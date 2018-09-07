@@ -1,0 +1,21 @@
+.topbar {
+  background-color: maroon;
+  border-radius: 20%;
+  color: white;
+
+}
+
+body {
+  background-image: 
+}
+.column {
+  width: 350px;
+
+  background-color: maroon;
+}
+
+img {
+  border-radius:50%;
+  max-width: 500px;
+
+}
