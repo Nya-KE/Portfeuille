@@ -1,15 +1,28 @@
 body {
-  background-image: url(images/nyakio.jpg);
+  background-image: url(../images/nyakio.jpg);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #005959;
 }
 div.images img {
-  height: 50px;
-  width: 50px;
-  justify-content: center;
+  height: 70px;
+  width: 70px;
+  color: #005959;
 
 }
 
 div.images {
 font-size: 50px;
-justify-content:space-around;
 padding: 30px;
+width: 50%;
+font-weight: bold;
+}
+
+div.contact-header {
+  font-size: 80px;
+  width: 60%;
+  font-style: italic;
+  font-weight: lighter;
+  padding-left: 15px;
 }
