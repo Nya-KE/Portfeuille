@@ -2,26 +2,34 @@
   background-color: #4CA6A6;
   color: white;
   margin: 20px;
-  padding: 30px
+  padding: 30px;
+  position:relative;
 }
 
 body {
   background-image: url(../images/Background.jpg);
-
+  min-width: 624px;
 }
-.column {
-  width: 350px;
 
-  background-color: maroon;
+div. columns{
+  justify-content: center;
+}
+
+div.columns p {
+  width: 33%;
+  float:left;
+  background-color: #005959;
+  color: white;
+  justify-content:space-around;
+  border-color: white;
+
 }
 
 img {
   border-radius:50%;
   max-width: 500px;
-
 }
+
 p {
-  background-color: #005959;
-  color: white;
-  padding: 10px;
+
 }
