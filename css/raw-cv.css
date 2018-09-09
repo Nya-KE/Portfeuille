@@ -1,3 +1,15 @@
 body {
   background-image: url(images/nyakio.jpg);
 }
+div.images img {
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+
+}
+
+div.images {
+font-size: 50px;
+justify-content:space-around;
+padding: 30px;
+}
