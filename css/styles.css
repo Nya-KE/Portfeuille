@@ -16,12 +16,14 @@ img {
 div.columns h3 {
   font-family:serif;
   position: relative;
+  color: black;
 }
 div.columns p {
   font-family:serif;
   font-style: oblique;
   text-align: center;
   max-width: 600px;
+  color:#005959;
 }
 
 @media screen and (min-width: 718px) {
@@ -35,6 +37,7 @@ div.columns p {
       color: white;
       float:left;
       margin: 2px;
+      text-align: center;
     }
 
 }
@@ -51,4 +54,10 @@ div.columns p {
 
 
     }
+}
+
+span.about-me {
+  font-style: italic;
+  font-family: serif;
+  font-weight: 400;
 }
