@@ -8,28 +8,39 @@
 
 body {
   background-image: url(../images/Background.jpg);
-  min-width: 624px;
+  min-width: 638px;
 }
 
-div. columns{
-  justify-content: center;
-}
-
-div.columns p {
-  width: 33%;
-  float:left;
-  background-color: #005959;
-  color: white;
-  justify-content:space-around;
-  border-color: white;
-
-}
 
 img {
   border-radius:50%;
   max-width: 500px;
 }
 
-p {
+@media screen and (min-width: 718px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+    div.columns h2 {
+      width: 32%;
+      background-color: #005959;
+      color: white;
+      float:left;
+      margin: 4.5px;
+    }
+}
+@media screen and (min-width: 1px) and (max-width: 717px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+    div.columns h2 {
+      width: 700px;
+      background-color: #005959;
+      color: white;
+      text-align: center;
 
+
+    }
 }
