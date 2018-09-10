@@ -15,10 +15,7 @@ img {
 
 div.columns h3 {
   font-family:serif;
-  font-style: oblique;
-  text-align: center;
-  width: inherit;
-  max-width: 600px;
+  position: relative;
 }
 div.columns p {
   font-family:serif;
@@ -33,20 +30,13 @@ div.columns p {
         color: white;
     }
     div.columns h2 {
-      width: 32.666666%;
+      width: 100%;
       background-color: #005959;
       color: white;
       float:left;
       margin: 2px;
     }
-    div.columns h3 {
-      width: 700px;
-      float: none;
-    }
-}
-    div.columns p{
-      width: 700px;
-      float: none;
+
 }
 @media screen and (min-width: 1px) and (max-width: 717px) {
     body {
