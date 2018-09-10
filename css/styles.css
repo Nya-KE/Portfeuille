@@ -1,9 +1,6 @@
 .topbar {
   background-color: #4CA6A6;
   color: white;
-  margin: 20px;
-  padding: 30px;
-  position:relative;
 }
 
 body {
@@ -11,10 +8,23 @@ body {
   min-width: 638px;
 }
 
-
 img {
   border-radius:50%;
   max-width: 500px;
+}
+
+div.columns h3 {
+  font-family:serif;
+  font-style: oblique;
+  text-align: center;
+  width: inherit;
+  max-width: 600px;
+}
+div.columns p {
+  font-family:serif;
+  font-style: oblique;
+  text-align: center;
+  max-width: 600px;
 }
 
 @media screen and (min-width: 718px) {
@@ -23,12 +33,20 @@ img {
         color: white;
     }
     div.columns h2 {
-      width: 32%;
+      width: 32.666666%;
       background-color: #005959;
       color: white;
       float:left;
-      margin: 4.5px;
+      margin: 2px;
     }
+    div.columns h3 {
+      width: 700px;
+      float: none;
+    }
+}
+    div.columns p{
+      width: 700px;
+      float: none;
 }
 @media screen and (min-width: 1px) and (max-width: 717px) {
     body {
